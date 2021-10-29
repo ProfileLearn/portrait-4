@@ -14,8 +14,8 @@ export default function App() {
   const [timer, setTimer] = useState(false);
 
   // useStyle
-  const width1 = window.innerWidth;
-  const height1 = window.innerHeight;
+  const width1 = "100vw";
+  const height1 = "100vh";
 
   const useStyle = makeStyles({
     App: {
@@ -38,10 +38,12 @@ export default function App() {
 
   function procesarArchivos(archivos) {
     const arr = Array.from(archivos);
-    arr.forEach((archivo) => {
+    const mapa = arr.map(archivo => {
       let urlFile = URL.createObjectURL(archivo);
-      setListaDeArchivos([...listaDeArchivos, urlFile]);
-    });
+      return urlFile;
+    })
+    setListaDeArchivos(mapa)
+
   }
 
 // BUSCAR LA FORMA DE HACER TIMER OFF SI !FULLSCREEN
@@ -104,7 +106,7 @@ export default function App() {
       onDragOver={(e) => e.preventDefault()}
       onDrop={handleDrop}
       onClick={handleBoxClick}>
-      <Hidden mdUp={timer}>
+      <Hidden xsUp={timer}>
         <IconButton aria-label="play">
           <PlayCircleFilledWhiteIcon
             onClick={handlePlayClick}
