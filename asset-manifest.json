@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/ProfileLearn/portrait-4/static/css/main.4ec54676.chunk.css",
-    "main.js": "/ProfileLearn/portrait-4/static/js/main.36be1395.chunk.js",
-    "main.js.map": "/ProfileLearn/portrait-4/static/js/main.36be1395.chunk.js.map",
+    "main.js": "/ProfileLearn/portrait-4/static/js/main.efd6c719.chunk.js",
+    "main.js.map": "/ProfileLearn/portrait-4/static/js/main.efd6c719.chunk.js.map",
     "runtime-main.js": "/ProfileLearn/portrait-4/static/js/runtime-main.b9e6cde0.js",
     "runtime-main.js.map": "/ProfileLearn/portrait-4/static/js/runtime-main.b9e6cde0.js.map",
-    "static/js/2.e94fc959.chunk.js": "/ProfileLearn/portrait-4/static/js/2.e94fc959.chunk.js",
-    "static/js/2.e94fc959.chunk.js.map": "/ProfileLearn/portrait-4/static/js/2.e94fc959.chunk.js.map",
+    "static/js/2.84409311.chunk.js": "/ProfileLearn/portrait-4/static/js/2.84409311.chunk.js",
+    "static/js/2.84409311.chunk.js.map": "/ProfileLearn/portrait-4/static/js/2.84409311.chunk.js.map",
     "index.html": "/ProfileLearn/portrait-4/index.html",
     "static/css/main.4ec54676.chunk.css.map": "/ProfileLearn/portrait-4/static/css/main.4ec54676.chunk.css.map",
-    "static/js/2.e94fc959.chunk.js.LICENSE.txt": "/ProfileLearn/portrait-4/static/js/2.e94fc959.chunk.js.LICENSE.txt"
+    "static/js/2.84409311.chunk.js.LICENSE.txt": "/ProfileLearn/portrait-4/static/js/2.84409311.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b9e6cde0.js",
-    "static/js/2.e94fc959.chunk.js",
+    "static/js/2.84409311.chunk.js",
     "static/css/main.4ec54676.chunk.css",
-    "static/js/main.36be1395.chunk.js"
+    "static/js/main.efd6c719.chunk.js"
   ]
 }
